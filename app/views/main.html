@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-   
         <link rel="stylesheet" type="text/css" href="/public/stylesheets/main.css" />
         <title>mon stage</title>
     </head>
     <body>
-     <H1><font color= "pink"> Mon rapport chez </font></h1>
-     <img src="/public/images/zen_logo.png"/><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=zenexity&amp;sll=46.75984,1.738281&amp;sspn=6.865111,19.753418&amp;ie=UTF8&amp;hq=zenexity&amp;hnear=&amp;cid=1569322154768323028&amp;ll=48.899032,2.349014&amp;spn=0.078994,0.145912&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=zenexity&amp;sll=46.75984,1.738281&amp;sspn=6.865111,19.753418&amp;ie=UTF8&amp;hq=zenexity&amp;hnear=&amp;cid=1569322154768323028&amp;ll=48.899032,2.349014&amp;spn=0.078994,0.145912&amp;z=12&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
-
-          <h2>le premier jour </h2>
-     <p>Aujourd'hui j'ai fait la connaissance avec les employés de la société
-      <a href="http://www.zenexity.fr/">zenexity</a>.<br>
- J ai eu  l idée d écris mon rapport de stage avec l outil de la société de zenexity qui se 
- nomme <a href="http://www.playframework.org/documentation/1.1/guide1">play framework</a>.<br/>
- Mon responsable M. Sébastien Crème m'a expliqué les principes du <STRONG>WEB</STRONG>.
-  <h3>Interview des employés de zenexity?</h3>
-  <ul class="question general">
- 
-  <li> Quel étude à vous effectuer ?</li>
-  <li> Quel votre spécialiter ? </li>
-  <li> En ce moment sur quel projet traivaill-vous? </li>
-  <li> En quoi consiste votre metier? </li>
-  <li> Qu'est qui vous plait ce zeneity?</li> 
-   </ul>
-   <h2></h2>
+       <div id="wrapper">
+        <header>
+        <div>
+        <h1>Mon rapport chez</h1>
+        <img src="/public/images/zen_logo.png" width="400px"/>
+        </div>
+        <!--
+        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=zenexity&amp;sll=46.75984,1.738281&amp;sspn=6.865111,19.753418&amp;ie=UTF8&amp;hq=zenexity&amp;hnear=&amp;cid=1569322154768323028&amp;ll=48.899032,2.349014&amp;spn=0.078994,0.145912&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
+        <br /><small><a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=zenexity&amp;sll=46.75984,1.738281&amp;sspn=6.865111,19.753418&amp;ie=UTF8&amp;hq=zenexity&amp;hnear=&amp;cid=1569322154768323028&amp;ll=48.899032,2.349014&amp;spn=0.078994,0.145912&amp;z=12&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
+        -->
+        <nav>
+            <a href="/">Accueil</a>
+            <a href="@{Application.equipeIndex()}">L'équipe</a>
+            <a href="@{Application.journalDeBord()}">Journal de bord</a>
+        </nav>
+        </header>
+    
+     <div class="main">
+         #{doLayout /}
+     </div>
+     </div>
     </body>
-  
 </html>

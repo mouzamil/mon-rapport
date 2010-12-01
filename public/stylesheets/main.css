@@ -1,9 +1,40 @@
-.rouge {
-    color: red;
+body {
+   background: url(/public/images/fondgrand.png) repeat-x #0b1622;
+  padding: 0;
 }
 
-.policeforte {
-    font-size: 300px;
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+header h1 {
+    color: pink;
+    margin: 0;
+    text-decoration: underline;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+nav a {
+    color: #00F;
+}
+nav a:hover {
+    color: pink;
 }
 
 
+div.main {
+   padding: 10px;
+   background: url(/public/images/zenexity.png) no-repeat #78afb8 bottom right; 
+}
