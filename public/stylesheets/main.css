@@ -27,10 +27,10 @@ nav {
 }
 
 nav a {
-    color: #00F;
+    color: #5b7491;
 }
 nav a:hover {
-    color: pink;
+    color: #fff;
 }
 
 
