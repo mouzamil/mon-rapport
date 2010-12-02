@@ -29,5 +29,7 @@ public class Application extends Controller {
        public static void gre() {
         render();
     }
-
+      public static void gge() {
+        render();
+    }
 }
