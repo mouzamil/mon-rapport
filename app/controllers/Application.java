@@ -32,4 +32,10 @@ public class Application extends Controller {
       public static void gge() {
         render();
     }
+    
+     public static void scr() {
+        render();
+    }
+    
+    
 }
